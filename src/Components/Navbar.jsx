@@ -13,7 +13,9 @@ const Navbar = () => {
     <>
         <header className='w-full h-20 shadow-md sticky top-0 px-10 bg-[#fafafa] flex items-center md:flex-row md:justify-between z-[9999]'>
         <div className='cursor-pointer text-2xl'>
-            <h1 className='font-bold'>Data Finance</h1>
+            <Link>
+              <h1 className='font-bold'>Data Finance</h1>
+            </Link>
         </div>
         <div className='md:hidden absolute right-8 cursor-pointer' onClick={handleNav}>
             {
